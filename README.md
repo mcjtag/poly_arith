@@ -104,6 +104,7 @@ Polynomial arithmetic (Verilog)
 
 ## Greatest Common Divisor in GF(2)
 ### Operation: c(x) = GCD(a(x), b(x))
+### Note: Euclidean algorithm
 ### Parameters
 | parameter | |
 |-|-|
