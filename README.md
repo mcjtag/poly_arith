@@ -21,7 +21,7 @@ Polynomial arithmetic (Verilog)
 `if` p(x) = b[0] + b[1]*x + b[2]*x^2 + ... + b[k]*x^k (b[i] is in GF(2^m), k <= POLY_P_WIDTH-1) and width of b[i] is M_VALUE, bit-order of b[i] is little-endian
 `then` px[POLY_X_WIDTH-1:0] = {b[k], ..., b[2], b[1], b[0]}
 
-### Note: deg(p(x)) = (POLY_P_WIDTH - 1)
+### Note: deg(p(x)) <= (POLY_P_WIDTH - 1)
 
 ## Multiplication in GF(2)
 ### Operation: c(x) = a(x) * b(x)
